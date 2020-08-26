@@ -15,6 +15,7 @@ Fiz algumas coisas com CSS puro pra não ficar só dependendo do Bootstrap.
 > - SOLID (Alguns princípios);
 > - Object Calisthenics (Alguns princípios);
 > - Dotenv
+> - Monolog
 
 ## Requisitos:
 - **PHP ^7**;

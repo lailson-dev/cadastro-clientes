@@ -3,5 +3,8 @@
 		"psr-4": {
 			"app\\": "app"
 		}
+	},
+	"require": {
+		"vlucas/phpdotenv": "^5.1"
 	}
 }

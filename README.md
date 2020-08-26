@@ -33,5 +33,5 @@ Fiz algumas coisas com CSS puro pra não ficar só dependendo do Bootstrap.
 ![](https://i.imgur.com/3jgfXyT.jpg)
 ### Deleção de Clientes:
 ![](https://i.imgur.com/JRWbv1s.jpg)
-### Deleção de Clientes:
+### Atualização de Clientes:
 ![](https://i.imgur.com/inr5gsx.jpg)

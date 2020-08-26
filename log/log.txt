@@ -1,0 +1,6 @@
+[2020-08-26T22:15:01.019563+02:00] database.ERROR: Access denied for user {"HTTP_HOST":"localhost:8888","REQUEST_URI":"/","REQUEST_METHOD":"GET","HTTP_USER_AGENT":"/"} []
+[2020-08-26T22:15:07.855137+02:00] database.ERROR: Unknown database 'client' {"HTTP_HOST":"localhost:8888","REQUEST_URI":"/","REQUEST_METHOD":"GET","HTTP_USER_AGENT":"/"} []
+[2020-08-26T22:15:19.981801+02:00] database.ERROR: Access denied for user {"HTTP_HOST":"localhost:8888","REQUEST_URI":"/","REQUEST_METHOD":"GET","HTTP_USER_AGENT":"/"} []
+[2020-08-26T22:17:21.193221+02:00] database.ERROR: No connections could be made because the target machine actively refused them {"HTTP_HOST":"localhost:8888","REQUEST_URI":"/","REQUEST_METHOD":"GET","HTTP_USER_AGENT":"/"} []
+[2020-08-26T22:23:40.087200+02:00] database.ERROR: Unknown database 'client' {"HTTP_HOST":"localhost:8888","REQUEST_URI":"/","REQUEST_METHOD":"GET","HTTP_USER_AGENT":"/"} []
+[2020-08-26T22:23:44.465424+02:00] database.ERROR: Unknown database 'client' {"HTTP_HOST":"localhost:8888","REQUEST_URI":"/","REQUEST_METHOD":"GET","HTTP_USER_AGENT":"/"} []

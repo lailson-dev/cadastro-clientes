@@ -11,16 +11,16 @@ Fiz algumas coisas com CSS puro pra não ficar só dependendo do Bootstrap.
 > - MySQL;
 > - MVC;
 > - POO;
+> - Composer
 > - SOLID (Alguns princípios);
 > - Object Calisthenics (Alguns princípios);
+> - Dotenv
 
 ## Requisitos:
 - **PHP ^7**;
 - **MySQL(MariaDB)**;
 - **Importar o arquivo SQL para o banco de dados**;
-
-> **Observações:**
-> - **Ainda não foi feito o CMS;
+- **Rodar o comando composer install**;
 
 # OBS: Projeto ainda em andamento
 

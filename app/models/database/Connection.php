@@ -15,6 +15,6 @@ class Connection implements InterfaceConnectDatabase
 
 	public function connectDatabase()
 	{
-		$this->interfaceConnectDatabase->connectDatabase();
+		return $this->interfaceConnectDatabase->connectDatabase();
 	}
 }

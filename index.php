@@ -2,6 +2,7 @@
 
 require 'vendor/autoload.php';
 require 'routes.php';
+require 'app/helpers/functions.php';
 
 use app\classes\Uri;
 use app\classes\Route;

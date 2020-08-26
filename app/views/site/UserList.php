@@ -11,15 +11,17 @@
 	    </tr>
 	  </thead>
 	  <tbody>
+	  	<?php foreach ($users as $user): ?>
 	    <tr>
 	      <th scope="row">1</th>
-	      <td>Lailson Conceição</td>
-	      <td>Lailsondev@gmail.com</td>
-	      <td>123.456.789-00</td>
-	      <td>34 991279379</td>
-	      <td><a href="/editar?id=1">Editar</a></td>
-	      <td><a href="/deletar?id=1">Deletar</a></td>
+	      <td><?= $user->name; ?></td>
+	      <td><?= $user->email; ?></td>
+	      <td><?= $user->cpf; ?></td>
+	      <td><?= $user->phone; ?></td>
+	      <td><a href="/editar?id=<?= $user->id; ?>">Editar</a></td>
+	      <td><a href="/deletar?id=<?= $user->id; ?>">Deletar</a></td>
 	    </tr>
+		<?php endforeach; ?>
 	  </tbody>
 	</table>
 </div>

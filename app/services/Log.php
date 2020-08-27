@@ -15,12 +15,6 @@ class Log
 		$this->logger = new Logger($channel);
 	}
 
-	public function browserConsoleHandler($type, $message)
-	{
-		$this->logger->pushHandler(new BrowserConsoleHandler(Logger::DEBUG));
-		$this->logger->$type($message, ["logger" => true]);
-	}
-
 	public function fileStreamHandler($message)
 	{
 		$this->logger->pushHandler(new StreamHandler(__DIR__.'/../../log/log.txt', Logger::WARNING));
@@ -30,6 +24,23 @@ class Log
 			"REQUEST_METHOD" => $_SERVER['REQUEST_METHOD'],
 			"HTTP_USER_AGENT" => $_SERVER['REQUEST_URI']
 		]);
+	}
+
+	public function writeLog($code)
+	{
+		switch ($code) {
+			case '1049':
+				$this->fileStreamHandler("Unknown database");
+				break;
+
+			case '1045':
+				$this->fileStreamHandler("Access denied for user");
+				break;
+			
+			case '2002':
+				$this->fileStreamHandler("No connections could be made because the target machine actively refused them");
+				break;
+		}
 	}
 
 }

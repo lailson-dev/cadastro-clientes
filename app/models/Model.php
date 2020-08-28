@@ -34,7 +34,7 @@ class Model
 		return $this->typeDatabase->fetch();
 	}
 
-	private function rowCount($id)
+	private function rowCount($cpf)
 	{
 		$sql = "SELECT * FROM {$this->table} WHERE cpf = :cpf";
 		$this->typeDatabase->prepare($sql);
@@ -44,9 +44,9 @@ class Model
 		return $this->typeDatabase->rowCount();
 	}
 
-	public function hasUser($id)
+	public function hasUser($cpf)
 	{
-		return $this->rowCount($id);
+		return $this->rowCount($cpf);
 	}
 
 	public function allRecords()

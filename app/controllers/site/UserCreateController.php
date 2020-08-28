@@ -14,7 +14,7 @@ if (!empty($_POST)) {
 	
 	$user = new User;
 	if($validated) {
-		if (!$user->hasUser($filted->cpf)) {
+		if ($user->hasUser($filted->cpf > 0)) {
 			flash(['message__info' => "O CPF {$filted->cpf} já está cadastrado em nossa base de dados!"]);
 
 			return redirect('/');

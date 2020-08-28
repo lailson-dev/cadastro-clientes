@@ -1,2 +1,0 @@
-[2020-08-27T20:22:57.926694+02:00] database.ERROR: No connections could be made because the target machine actively refused them {"HTTP_HOST":"localhost:8888","REQUEST_URI":"/","REQUEST_METHOD":"GET","HTTP_USER_AGENT":"/"} []
-[2020-08-27T21:15:59.337360+02:00] database.ERROR: No connections could be made because the target machine actively refused them {"HTTP_HOST":"localhost:8888","REQUEST_URI":"/","REQUEST_METHOD":"GET","HTTP_USER_AGENT":"/"} []

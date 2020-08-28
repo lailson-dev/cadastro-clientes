@@ -22,6 +22,8 @@ Fiz algumas coisas com CSS puro pra não ficar só dependendo do Bootstrap.
 - **MySQL(MariaDB)**;
 - **Importar o arquivo SQL para o banco de dados**;
 - **Rodar o comando composer install**;
+- **Rodar servidor interno do PHP na pasta raiz do projeto**;
+- **Comando: php -S localhost:8080**;
 
 # OBS: Projeto ainda em andamento
 

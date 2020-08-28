@@ -84,4 +84,13 @@ class Model
 		return $this->update($sql, $request);
 	}
 
+	public function destroy($id)
+	{
+		$sql = "DELETE FROM {$this->table} WHERE id = :id";
+		$this->typeDatabase->prepare($sql);
+		$this->typeDatabase->bindValue(':id', $id);
+
+		return $this->typeDatabase->execute();
+	}
+
 }

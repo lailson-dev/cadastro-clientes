@@ -7,5 +7,6 @@ $routes = [
 	'/editar' => 'controllers/site/UserUpdateController',
 	'/update' => 'controllers/site/UserUpdateController',
 	'/deletar' => 'controllers/site/UserDeleteController',
+	'/delete' => 'controllers/site/UserDeleteController',
 	'/404' => 'controllers/ErrorPageNotFoundController'
 ];

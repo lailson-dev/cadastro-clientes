@@ -6,7 +6,10 @@
 	<span class="<?= $index; ?>"><?= $message; ?></span>
 	<?php endforeach; ?>
 </div>
-<?php endif; ?>
+<?php
+	endif;
+
+	if ($user->allRecords()): ?>
 
 <div class="main__page-table">
 	<table class="table table-striped ">
@@ -34,3 +37,6 @@
 	  </tbody>
 	</table>
 </div>
+<?php else: ?>
+	<h6>Não há cliente registrado em nossa base de dados.</h6>
+<?php endif; ?>

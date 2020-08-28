@@ -49,6 +49,15 @@ class Model
 		return $this->rowCount($id);
 	}
 
+	public function allRecords()
+	{
+		$sql = "SELECT * FROM {$this->table}";
+		$this->typeDatabase->prepare($sql);
+		$this->typeDatabase->execute();
+		
+		return $this->typeDatabase->rowCount();
+	}
+
 	private function create($sql, $request)
 	{
 		$this->typeDatabase->prepare($sql);

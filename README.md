@@ -9,7 +9,9 @@
 ## 🐘 Sobre o desafio
 
 Neste desafio, desenvolvi uma aplicação para gestão de clientes, pondo em prática minha experiência com PHP junto ao MySQL(MariaDB). Pude também, aplicar
-um pouco os conceitos de SOLID e Object Calisthenics, conceitos S-O-I-D do SOLID, Only One Level Of Indentation Per Method, Don’t use “Else” keyword, Don’t Abbreviate e No Getters/Setters do Object Calisthenics.
+um pouco os conceitos de **SOLID** e **Object Calisthenics**, conceitos **S-O-I-D do SOLID, Only One Level Of Indentation Per Method, Don’t use “Else” keyword, Don’t Abbreviate e No Getters/Setters do Object Calisthenics. Além das PSR-3 e PSR-4, para Logs e Autoloads.**
+
+Utilizei também a arquitetura **MVC - Model, View, Controller** para melhor estrutura da aplicação.
 
 Essa aplicação tem a finalidade de gerir clientes de  uma pequena empresa. É possível a criação, listagem, deleção e atualização de registros.
 
@@ -17,6 +19,7 @@ Essa aplicação tem a finalidade de gerir clientes de  uma pequena empresa. É 
 ## Tecnologias utilizadas :memo:
 
 - [PHP](https://www.php.net/)
+- [MVC](https://pt.wikipedia.org/wiki/MVC)
 - [MySQL](https://www.mysql.com/)
 - [Composer](https://getcomposer.org/)
 - [Bootstrap](https://getbootstrap.com.br/)
@@ -35,9 +38,9 @@ Entre na pasta `cadastro-clientes` e rode o comando `composer install`, para ins
 Em seguida, rode o comando `php -S localhost:8080` para iniciar o servidor embutido do PHP.
 
 ```
-importe o arquivo app_crud.sql  que está na pasta database para o banco de dados
-crie um arquivo .env na raiz do projeto com as variáveis de conexão com o banco de dados
-veja o arquivo .env-example
+importe o arquivo app_crud.sql que está na pasta database para o banco de dados
+renomeie o arquivo .env-example para .env na raiz do projeto e configure as variáveis
+de conexão com o banco de dados
 ```
 
 Agora é só testar :smile:

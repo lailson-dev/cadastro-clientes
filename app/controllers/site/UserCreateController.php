@@ -14,7 +14,13 @@ if (!empty($_POST)) {
 	
 	$user = new User;
 	if($validated) {
-		$user->create($filted);
+		if (!$user->hasUser($filted->cpf)) {
+			flash(['message__info' => "O CPF {$filted->cpf} já está cadastrado em nossa base de dados!"]);
+
+			return redirect('/');
+		}
+
+		$user->save($filted);
 		flash(['message__success' => "O cliente {$filted->name} foi cadastrado com sucesso!"]);
 
 		return redirect('/');

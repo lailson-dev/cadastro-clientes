@@ -47,6 +47,11 @@ body {
 	flex-direction: column;
 }
 
+.main__page-form .form-button {
+	display: flex;
+	justify-content: center;
+}
+
 .main__page-form input {
 	padding: 15px;
 	margin: 3px;
@@ -54,18 +59,35 @@ body {
 	border-radius: 5px;
 }
 
-.main__page-form button {
+.main__page-form .button {
 	padding: 15px;
-	margin-top: 10px;
-	background-color: #fff;
-	border: 1px solid #19a82991;
 	border-radius: 5px;
 	text-shadow: 1px 1px 2px rgba(0, 0, 0, .2);
 	transition: all .1s ease-in;
 }
 
-.main__page-form button:hover {
-	background-color: #19a82991;
+.main__page-form .button-no {
+	color: red;
+	background-color: #fff;
+	border: 1px solid red;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+.main__page-form .button-yes {
+	background-color: #fff;
+	border: 1px solid #19a82991;
+}
+
+.main__page-form .button:hover {	
 	cursor: pointer;
 	color: #fff;
+}
+
+.main__page-form .button-no:hover {
+	background-color: red;
+}
+
+.main__page-form .button-yes:hover {
+	background-color: #19a82991;
 }

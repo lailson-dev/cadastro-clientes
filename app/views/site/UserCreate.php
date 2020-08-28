@@ -4,5 +4,5 @@
 	<input type="email" name="email" data-js="email" placeholder="E-mail (Obrigatório)" required>
 	<input type="text" name="cpf" data-js="cpf" placeholder="CPF (Obrigatório)" required>
 	<input type="phone" name="phone" data-js="phone" placeholder="Telefone (Opcional)">
-	<button type="submit">Cadastrar</button>
+	<button type="submit" class="button button-yes">Cadastrar</button>
 </form>

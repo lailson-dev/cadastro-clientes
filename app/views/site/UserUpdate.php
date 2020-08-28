@@ -5,5 +5,5 @@
 	<input type="email" name="email" data-js="email" value="<?= $userFound->email; ?>">
 	<input type="text" name="cpf" data-js="cpf" value="<?= mask('###.###.###-##', $userFound->cpf); ?>">
 	<input type="text" name="phone" data-js="phone" value="<?= mask('(##) #####-####', $userFound->phone); ?>">
-	<button type="submit">Atualizar</button>
+	<button type="submit" class="button button-yes">Atualizar</button>
 </form>

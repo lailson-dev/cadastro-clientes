@@ -20,12 +20,12 @@ Fiz algumas coisas com CSS puro pra não ficar só dependendo do Bootstrap.
 ## Requisitos:
 - **PHP ^7**;
 - **MySQL(MariaDB)**;
+- **Composer**;
 - **Importar o arquivo SQL para o banco de dados**;
+- **Configurar o arquivo .env na raiz do projeto para conexão com o DB**;
 - **Rodar o comando composer install**;
-- **Rodar servidor interno do PHP na pasta raiz do projeto**;
+- **Rodar o servidor interno do PHP na pasta raiz do projeto**;
 - **Comando: php -S localhost:8080**;
-
-# OBS: Projeto ainda em andamento
 
 ## Layout:
 
@@ -33,7 +33,7 @@ Fiz algumas coisas com CSS puro pra não ficar só dependendo do Bootstrap.
 ![](https://i.imgur.com/asr0R9C.jpg)
 ### Cadastro de Clientes:
 ![](https://i.imgur.com/3jgfXyT.jpg)
-### Deleção de Clientes:
-![](https://i.imgur.com/JRWbv1s.jpg)
 ### Atualização de Clientes:
 ![](https://i.imgur.com/inr5gsx.jpg)
+### Deleção de Clientes:
+![](https://i.imgur.com/JRWbv1s.jpg)

@@ -21,7 +21,7 @@ class PdoConnection implements InterfaceConnectDatabase
 		} catch (\PDOException $exception) {
 			$this->log = new Log('database');
 
-			$this->log->writeLog($exception->getCode());			
+			$this->log->write($exception->getCode());			
 		}
 	}
 

@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 require 'vendor/autoload.php';
 require 'routes.php';
 require 'app/helpers/functions.php';

@@ -26,7 +26,7 @@ class Log
 		]);
 	}
 
-	public function writeLog($code)
+	public function write($code)
 	{
 		switch ($code) {
 			case '1049':

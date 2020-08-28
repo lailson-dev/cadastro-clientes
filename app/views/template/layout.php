@@ -12,17 +12,13 @@
 	<section class="main__page">
 
 		<div class="btn-group mt-5" role="group" aria-label="Exemplo básico">
-		  <a href="/" class="btn btn-primary">Início</a>
+		  <a href="/" class="btn btn-primary mr-1">Início</a>
 		  <a href="/cadastrar" class="btn btn-primary">Cadastrar</a>
 		</div>
 
-		<!-- <div class="main__page-message">
-			<span class="message__error">Ocorreu um erro ao cadastrar o cliente, tente novamente mais tarde.</span>
-			<span class="message__success">Cliente cadastrado com sucesso!</span>
-		</div> -->
-
-		<?php require $layout->load(); ?>		
+		<?php require $layout->load(); ?>
 
 	</section>
+	<script src="../../../assets/js/app.js"></script>
 </body>
 </html>

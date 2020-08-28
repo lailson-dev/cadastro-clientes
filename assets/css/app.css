@@ -35,9 +35,13 @@ body {
 	color: #19a82991;
 }
 
+.message__info {
+	color: #007bff;
+}
+
 .main__page-form,
 .main__page-table {
-	width: 920px;
+	width: 960px;
 	height: 450px;
 	display: flex;
 	flex-direction: column;

@@ -29,7 +29,7 @@ class PdoTypeDatabase implements  InterfaceTypeDatabase
 
 	public function execute()
 	{
-		$this->objectPdo->execute();
+		return $this->objectPdo->execute();
 	}
 
 	public function rowCount()

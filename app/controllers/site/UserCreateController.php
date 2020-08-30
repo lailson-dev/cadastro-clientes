@@ -10,11 +10,11 @@ if (!empty($_POST)) {
 	$filterInput = new FilterInput;	
 	$filted = $filterInput->filterInput($_POST);
 
-	$validated = Validate::validate($filted);	
-	
+	$validated = Validate::validate($filted);
 	$user = new User;
+
 	if($validated) {
-		if ($user->hasUser($filted->cpf > 0)) {
+		if ($user->hasUser($filted->cpf) > 0) {
 			flash(['message__info' => "O CPF {$filted->cpf} já está cadastrado em nossa base de dados!"]);
 
 			return redirect('/');

@@ -1,4 +1,4 @@
-<h2>Listagem de Clientes</h2>
+<h2>Listagem de Clientes (<?= $user->rowCount(); ?>)</h2>
 
 <?php if (isset($_SESSION['flash'])): ?>
 <div class="main__page-message">
@@ -9,7 +9,7 @@
 <?php
 	endif;
 
-	if ($user->allRecords()): ?>
+	if ($user->rowCount()): ?>
 
 <div class="main__page-table">
 	<table class="table table-striped ">

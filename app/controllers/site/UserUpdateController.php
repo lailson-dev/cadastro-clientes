@@ -32,7 +32,7 @@ if (!empty($_POST)) {
 
 if (isset($_GET['id']) && is_numeric($_GET['id'])) {
 	$userId = filter_var( $_GET['id'], FILTER_VALIDATE_INT);
-	$userFound = $user->find($userId);
+	$userFound = $user->find('id', $userId);
 
 	return $layout->add('site/UserUpdate');
 }

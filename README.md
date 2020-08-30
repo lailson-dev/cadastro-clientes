@@ -9,7 +9,7 @@
 ## 🐘 Sobre o desafio
 
 Neste desafio, desenvolvi uma aplicação para gestão de clientes, pondo em prática minha experiência com PHP junto ao MySQL(MariaDB). Pude também, aplicar
-um pouco os conceitos de **SOLID** e **Object Calisthenics**, conceitos **S-O-I-D do SOLID, Only One Level Of Indentation Per Method, Don’t use “Else” keyword, Don’t Abbreviate e No Getters/Setters do Object Calisthenics. Além das PSR-3 e PSR-4, para Logs e Autoloads.**
+um pouco os conceitos de **SOLID** e **Object Calisthenics**, conceitos **S-O-I-D do SOLID, Only One Level Of Indentation Per Method, Don’t use “Else” keyword, Don’t Abbreviate e No Getters/Setters do Object Calisthenics, Tell, Don't Ask e Fail Fast. Além das PSR-3 e PSR-4, para Logs e Autoloads.**
 
 Utilizei também a arquitetura **MVC - Model, View, Controller** para melhor estrutura da aplicação.
 

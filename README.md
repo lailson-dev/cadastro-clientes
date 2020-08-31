@@ -1,9 +1,5 @@
 <img alt="Cadastro de Clientes" src="https://i.imgur.com/3hsQKSK.jpg" />
 
-<h3 align="center">
-  PHP | Desafio 1 - Cadastro de clientes
-</h3>
-
 <blockquote align="center">“Só deseje as coisas as quais você está disposto a lutar”!</blockquote>
 
 ## 🐘 Sobre o desafio
